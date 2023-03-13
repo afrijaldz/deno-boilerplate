@@ -1,5 +1,4 @@
-import { Context } from "https://deno.land/x/oak/mod.ts";
-import { config } from "https://deno.land/x/dotenv/mod.ts";
+import { Context, config } from "deps";
 
 const { DATA_API_KEY, APP_ID } = config();
 
