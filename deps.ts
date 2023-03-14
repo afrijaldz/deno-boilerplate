@@ -1,15 +1,12 @@
-// dotenv
-export { config } from "https://deno.land/x/dotenv/mod.ts";
-
 // postgresql
 export {
   Client as PostgreSQL,
   Pool,
   PostgresError,
-} from "https://deno.land/x/postgres/mod.ts";
+} from "https://deno.land/x/postgres@v0.17.0/mod.ts";
 
 // mysql
-export { Client as MySQL } from "https://deno.land/x/mysql/mod.ts";
+export { Client as MySQL } from "https://deno.land/x/mysql@v2.11.0/mod.ts";
 
 // OAK
 export {
@@ -18,10 +15,10 @@ export {
   Request,
   Context,
   Router,
-} from "https://deno.land/x/oak/mod.ts";
+} from "https://deno.land/x/oak@v12.1.0/mod.ts";
 
 // JWT
-export { validate, create } from "https://deno.land/x/djwt/mod.ts";
+export { validate, create } from "https://deno.land/x/djwt@v2.8/mod.ts";
 
 // std_lib
 export {
